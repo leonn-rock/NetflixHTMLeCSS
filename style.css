@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: Netflix;
+}
+@font-face {
+  font-family: Netflix;
+  src: url(Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+@font-face {
+  font-family: Netflix;
+  src: url(Netflix/fonte/netflix-sans-font/NetflixSans-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Netflix;
+  src: url(Netflix/fonte/netflix-sans-font/NetflixSans-Light.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Netflix;
+  src: url(Netflix/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+  font-weight: medium;
+}
+#navCima {
+  display: flex;
+  background-color: black;
+}
+#navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 70%;
+  gap: 10px;
+}
+#logo {
+  background-image: url(Netflix/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png);
+  background-size: cover;
+  width: 240px;
+  height: 100px;
+  margin: 10px 0px 10px 80px;
+}
+#navLinks a {
+  text-decoration: none;
+  line-height: 120px;
+}
+#navUser {
+  width: 30%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lupa {
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(Netflix/icons/lupa.png);
+  background-size: cover;
+}
+#navUser a {
+  text-decoration: none;
+  line-height: 120px;
+}
+#usuario{
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: 20px;
+  background-image: url(Netflix/ícones\ de\ usuário/312\ -\ zYfYlE7.png);
+}
+#dash {
+  height: 20px;
+  width: 20px;
+  background-image: url(Netflix/icons/seta.png);
+  background-size: cover;
+}
+
+.titulo {
+  width: 100%;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+}
+#superior {
+  background: linear-gradient(to right, black 20%, #ffffff00 50%),
+    url(images/narcos-background.png);
+  background-size: cover;
+}
+.titulo h1 {
+  font-size: 96pt;
+  font-weight: lighter;
+  margin: 10px;
+}
+.titulo h3 {
+  font-size: 20pt;
+  font-weight: lighter;
+  margin: 20px 40px;
+}
+#descricao {
+  height: auto;
+  width: 40%;
+  margin: 20px;
+  font-size: 16pt;
+}
+#espacoBotoes {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  height: auto;
+  margin-left: 20px;
+}
+.play{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  background-image: url(Netflix/icons/play.png);
+  background-size: cover;
+}
+.mais{
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  background-image: url(Netflix/icons/mais.png);
+  background-size: cover;
+}
+.botao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #564d4dc4;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#espacoBotoes a{
+  text-decoration: none;
+}
+main {
+  background-color: black;
+}
+main h3 {
+  margin: 0px 0px 20px 20px;
+  font-size: 20pt;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
+}
+.banner {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  background-color: #564d4d;
+  height: 225px;
+}
+
+/*SERIES*/
+
+#series .banner:nth-child(1) {
+  background-image: url(images/a1.png);
+}
+#series .banner:nth-child(2) {
+  background-image: url(images/a2.png);
+}
+#series .banner:nth-child(3) {
+  background-image: url(images/a3.png);
+}
+#series .banner:nth-child(4) {
+  background-image: url(images/a4.png);
+}
+
+/*EM ALTA*/
+
+#emAlta .banner:nth-child(1) {
+  background-image: url(images/b1.png);
+}
+#emAlta .banner:nth-child(2) {
+  background-image: url(images/b2.png);
+}
+#emAlta .banner:nth-child(3) {
+  background-image: url(images/b3.png);
+}
+#emAlta .banner:nth-child(4) {
+  background-image: url(images/b4.png);
+}
+
+/*TERROR*/
+
+#terror .banner:nth-child(1) {
+  background-image: url(images/c1.png);
+}
+#terror .banner:nth-child(2) {
+  background-image: url(images/c2.png);
+}
+#terror .banner:nth-child(3) {
+  background-image: url(images/c3.png);
+}
+#terror .banner:nth-child(4) {
+  background-image: url(images/c4.png);
+}
+
+/*SUSPENSE*/
+
+#suspense .banner:nth-child(1) {
+  background-image: url(images/d1.png);
+}
+#suspense .banner:nth-child(2) {
+  background-image: url(images/d2.png);
+}
+#suspense .banner:nth-child(3) {
+  background-image: url(images/d3.png);
+}
+#suspense .banner:nth-child(4) {
+  background-image: url(images/d4.png);
+}
+
+/*TOP DA SEMANA*/
+
+#topDaSemana .banner:nth-child(1) {
+  background-image: url(images/e1.png);
+}
+#topDaSemana .banner:nth-child(2) {
+  background-image: url(images/e2.png);
+}
+#topDaSemana .banner:nth-child(3) {
+  background-image: url(images/e3.png);
+}
+#topDaSemana .banner:nth-child(4) {
+  background-image: url(images/e4.png);
+}
+
+#infeiror {
+  background: linear-gradient(to right, black 20%, #ffffff00 50%),
+    url(images/polonais-background.png);
+  background-size: cover;
+}
+#navBaixo{
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+#categorias {
+  width: 98%;
+  margin: 0px auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.bannerCategoria{
+  display: flex;
+  justify-content: center;
+}
+#categorias h3{
+  margin:0px;
+  line-height: 100px;
+}
+#categorias a{
+  width: 13.8%;
+  height: 100px;
+  text-decoration: none;
+  }
+#categorias a:nth-child(1){
+  background-color: #d06afe ;
+}
+#categorias a:nth-child(2){
+  background-color: #7052ff ;
+}
+#categorias a:nth-child(3){
+  background-color: #ffb351 ;
+}
+#categorias a:nth-child(4){
+  background-color: #68da3d ;
+}
+#categorias a:nth-child(5){
+  background-color: #ff7361 ;
+}
+#categorias a:nth-child(6){
+  background-color: #d06afe ;
+}
+#categorias a:nth-child(7){
+  background-color: #7052ff ;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #888888;
+  font-weight: lighter;
+}
